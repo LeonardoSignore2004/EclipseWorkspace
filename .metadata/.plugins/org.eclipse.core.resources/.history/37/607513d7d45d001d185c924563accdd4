@@ -1,0 +1,22 @@
+
+public class Spettatore extends Thread {
+	private String nome;
+	
+	public Spettatore (String nome) {
+		this.nome = nome;
+	}
+	
+	public void acquistaBiglietto () {
+		synchronized (Spettatore.class) {
+			if (Teatro.getNum_persone() < Teatro.getMax_persone()) {
+				Teatro.setNum_persone(Teatro.num_persone+1);
+			} else {
+				System.out.println("Teatro pieno");
+			}
+		}
+	}
+	
+	public void run () {
+		acquistaBiglietto();
+	}
+}

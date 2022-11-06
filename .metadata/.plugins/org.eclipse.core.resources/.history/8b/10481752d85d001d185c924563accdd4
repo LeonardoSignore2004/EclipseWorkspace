@@ -1,0 +1,28 @@
+
+public class Teatro {
+	public static int max_persone;
+	public static int num_persone;
+	
+	public Teatro (int max_persone) {
+		this.max_persone = max_persone;
+		this.num_persone = 0;
+	}
+
+	public static int getMax_persone() {
+		return max_persone;
+	}
+
+	public static void setMax_persone(int max_persone) {
+		Teatro.max_persone = max_persone;
+	}
+
+	public static int getNum_persone() {
+		return num_persone;
+	}
+
+	public static void setNum_persone(int num_persone) {
+		Teatro.num_persone = num_persone;
+	}
+	
+	
+}

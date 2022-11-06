@@ -1,0 +1,30 @@
+
+public class Spettatore extends Thread{
+	
+	private static int max_persone;
+	private static int num_persone;
+	
+	public Spettatore (String nome,int max_persone,int num_persone) {
+		this.currentThread().setName(nome);
+		this.max_persone=max_persone;
+		this.num_persone=num_persone;
+	}
+	
+	public boolean acquistaBiglietto () {
+		synchronized (Spettatore.class) {
+			if (Spettatore.num_persone<Spettatore.max_persone) {
+			Spettatore.num_persone++;
+			System.out.print(this.currentThread().getName() + " ha prenotato con successo");
+			return true;
+		} else {
+			System.out.println("Il teatro è pieno");
+			return false;
+			}
+		}
+	}
+	
+	public static void main () {
+		Spettatore mario = new Spettatore ("mario",)
+	}
+	
+}

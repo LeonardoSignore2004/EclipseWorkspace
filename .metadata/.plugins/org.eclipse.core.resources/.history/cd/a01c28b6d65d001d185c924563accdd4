@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Teatro.setNum_persone(3);
+		
+		Spettatore spettatori[3];
+		
+		Spettatore sp1 = new Spettatore ("sp1");
+		Spettatore sp2 = new Spettatore ("sp2");
+		Spettatore sp3 = new Spettatore ("sp3");
+		
+		sp1.start();
+		sp2.start();
+		sp3.start();
+		
+		for (int i=0;i<)
+		System.out.println("");
+	}
+
+}
