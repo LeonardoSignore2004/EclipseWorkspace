@@ -3,8 +3,8 @@ public class Edicola {
 	public static int quaderni;
 	public static int matite;
 	
-	public Edicola (int quaderni, int matite) {
-		this.quaderni = quaderni; 
-		this.matite = matite;
+	public static void set_quaderni_matite(int quaderni, int matite) {
+		Edicola.quaderni = quaderni;
+		Edicola.matite = matite;
 	}
 }
