@@ -12,6 +12,7 @@ public class Main {
 		b.start();
 		c.start();
 		
+	
 		a.join();
 		b.join();
 		c.join();
