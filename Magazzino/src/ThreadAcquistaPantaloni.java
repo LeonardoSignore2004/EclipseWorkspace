@@ -13,7 +13,6 @@ public class ThreadAcquistaPantaloni extends Thread{
 	}
 
 
-
 	public void run () {
 		synchronized (ThreadAcquistaPantaloni.class) {
 			boolean t =magazzino.compra(num,magazzino.pantaloni);

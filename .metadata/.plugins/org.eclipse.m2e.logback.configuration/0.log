@@ -954,3 +954,6 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpringBootHelloWorl
 2022-11-16 09:34:17,756 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@210e56df{/help,null,AVAILABLE}
 2022-11-16 09:34:17,761 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4f59468d{HTTP/1.1, (http/1.1)}{127.0.0.1:61133}
 2022-11-16 09:34:17,763 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@754e7299{STARTING}[10.0.11,sto=0] @332211ms
+2022-11-16 09:57:05,035 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@754e7299{STOPPING}[10.0.11,sto=0]
+2022-11-16 09:57:05,037 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4f59468d{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2022-11-16 09:57:05,040 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@210e56df{/help,null,STOPPED}

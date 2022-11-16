@@ -10,6 +10,12 @@
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="https://github.com/LeonardoSignore2004/EclipseWorkspace.git"/>
 	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="leonardo &lt;leonardo.signore@polofermigiorgi.it&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="leonardo &lt;leonardo.signore@polofermigiorgi.it&gt;"/>
+	</list>
 	<section name="GitImportWizard">
 	</section>
 	<section name="GitCommitSearchPage">
@@ -21,5 +27,13 @@
 		<item key="DIALOG_WIDTH" value="586"/>
 		<item key="DIALOG_HEIGHT" value="467"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
 	</section>
 </section>
