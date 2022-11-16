@@ -14,7 +14,7 @@ public class Cliente extends Thread {
 				Edicola.matite-=matite;
 				Edicola.quaderni-=quaderni;
 			} else {
-				System.out.println("Le scorte sono finite ");
+				System.out.println("Scorte non sufficienti per " + Thread.currentThread().getName());
 			}
 		}
 	}
