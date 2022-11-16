@@ -47,7 +47,6 @@ public class Magazzino {
 		System.out.print("Il magazzino ha " + num + " scorte \n\n\n");
 	}
 	
-	
 	public int getSizeCalzini () {
 		return calzini.size();
 	}
