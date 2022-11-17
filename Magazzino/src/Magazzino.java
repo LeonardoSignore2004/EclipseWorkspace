@@ -29,6 +29,10 @@ public class Magazzino {
 		return control;
 	}
 	
+	public void carica () {
+		
+	}
+	
 	private void riempimento () {
 		int num = 0;
 		
