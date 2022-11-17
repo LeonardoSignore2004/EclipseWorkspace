@@ -3,19 +3,19 @@ import java.util.Random;
 
 public class Magazzino {
 	
-	public ArrayList<Prodotto> calzini;
-	public ArrayList<Prodotto> felpe;
-	public ArrayList<Prodotto> pantaloni;
+	public ArrayList<IProdotto> calzini;
+	public ArrayList<IProdotto> felpe;
+	public ArrayList<IProdotto> pantaloni;
 	
 	public Magazzino () {
-		calzini = new ArrayList<Prodotto> ();
-		felpe = new ArrayList<Prodotto> ();
-		pantaloni = new ArrayList<Prodotto> ();
+		calzini = new ArrayList<IProdotto> ();
+		felpe = new ArrayList<IProdotto> ();
+		pantaloni = new ArrayList<IProdotto> ();
 		
 		riempimento ();
 	}
 	
-	public boolean compra  (int num, ArrayList<Prodotto> prodotti) {
+	public boolean compra  (int num, ArrayList<IProdotto> prodotti) {
 		boolean control = false;
 		for (int i=0;i<num;i++) {
 			if (prodotti.size()>num) {
@@ -43,9 +43,9 @@ public class Magazzino {
 		
 		for (int i=0;i<num; i++) {
 			
-				calzini.add(new Prodotto ("calzino"));
-				felpe.add(new Prodotto ("felpa"));
-				pantaloni.add(new Prodotto ("pantalone"));
+				calzini.add(new Calzino ());
+				felpe.add(new Felpa ());
+				pantaloni.add(new Pantalone ());
 		}
 		
 		System.out.print("Il magazzino ha " + num + " scorte \n\n\n");
