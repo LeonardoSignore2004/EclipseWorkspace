@@ -32,4 +32,6 @@
 			<item value="git"/>
 		</list>
 	</section>
+	<section name="FileSystemExportWizard">
+	</section>
 </section>
