@@ -19,6 +19,9 @@ public class Buffer {
 			}
 		}
 		notifyAll();
+		if (indice ==value.length-1) {
+			indice = 0;
+		}
 		disponibile = false;
 		indice++;
 		System.out.print( "Il consumatore ha preso: " + value[indice-1] + "\n");

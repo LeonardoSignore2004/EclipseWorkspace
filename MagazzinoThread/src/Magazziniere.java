@@ -10,8 +10,9 @@ public class Magazziniere extends Thread {
 	
 	public void run () {
 		int a=0;
-		for (int i=0;i<10;i++) {
-			a = new Random().nextInt(20);
+		boolean controllo = true;
+		while (controllo) {
+				a = new Random().nextInt(20);
 			buffer.put(a);
 		}
 	}
